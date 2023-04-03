@@ -6,7 +6,6 @@ import ScrollToTop from './utils/ScrollToTop'
 import './App.css'
 
 function App() {
-
   return (
     <div className="app">
       <Router>

@@ -1,5 +1,5 @@
 import resume from '../assets/pdf/resume.pdf'
-import ht from "../assets/images/ht.jpg"
+import ht from '../assets/jpg/ht.jpg'
 
 export const headerData = {
     name: 'Hurair Taqvi',

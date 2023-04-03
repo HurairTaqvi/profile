@@ -18,4 +18,5 @@ function SingleService({id, title, icon}) {
     )
 }
 
+
 export default SingleService

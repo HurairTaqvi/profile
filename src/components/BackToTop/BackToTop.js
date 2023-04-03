@@ -7,7 +7,6 @@ import './BackToTop.css';
 
 function BackToTop() {
     const [visible, setVisible] = useState(false);
-
     const { theme } = useContext(ThemeContext);
 
     const toggleVisible = () => {
@@ -34,7 +33,6 @@ function BackToTop() {
             color: theme.tertiary,
         },
     }));
-
     const classes = useStyles();
 
     return (
@@ -48,5 +46,6 @@ function BackToTop() {
         </div>
     );
 }
+
 
 export default BackToTop;

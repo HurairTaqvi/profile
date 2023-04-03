@@ -3,7 +3,7 @@ export const achievementData = {
     achievements : [
         {
             id : 1,
-            title : 'Google Digital Garage Certification of "The Fundamentals of Digital Marketing"',
+            title : 'Google Digital Garage Certification',
             details : 'Successfully completed "The Fundamentals of Digital Marketing" certification exam from Google Digital Garage.',
             date : 'April 2020',
             field : 'Digital',
@@ -19,7 +19,7 @@ export const achievementData = {
         },
         {
             id : 3,
-            title : 'Digital Marketing, SEO, WordPress & Freelancing Certifications from DigiSkills',
+            title : 'DigiSkills Certifications',
             details : 'Successfully certifications of Digital Marketing, SEO, WordPress & Freelancing Certifications from DigiSkills',
             date : 'Aug 20, 2019',
             field : 'Marketing',

@@ -1,18 +1,16 @@
+import './ProjectPage.css'
 import React, { useContext, useState } from 'react'
 import { Helmet } from 'react-helmet'
 import { Grid } from '@material-ui/core'
 import { Link } from 'react-router-dom'
 import { makeStyles } from '@material-ui/core/styles';
 import { AiOutlineHome } from "react-icons/ai";
-
-import './ProjectPage.css'
 import { SingleProject } from '../../components';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { projectsData } from '../../data/projectsData'
 import { headerData } from '../../data/headerData'
 
 function ProjectPage() {
-
     const [search, setSearch] = useState('')
     const { theme } = useContext(ThemeContext);
 
